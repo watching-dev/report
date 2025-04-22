@@ -16,3 +16,65 @@ body::-webkit-scrollbar {
 pre {
   font-family: "sans-serif";
 }
+
+:root {
+  /* Color Token */
+
+  /* Black */
+  --black: rgba(0, 0, 0, 1); /* HEX FF000000 */
+  --black-80: rgba(0, 0, 0, 0.8); /* HEX CC000000 */
+
+  /* White */
+  --white: rgba(255, 255, 255, 1); /* HEX FFFFFFFF */
+  --white-80: rgba(255, 255, 255, 0.8); /* HEX CCFFFFFF */
+  --white-60: rgba(255, 255, 255, 0.6); /* HEX 99FFFFFF */
+
+  /* Gray Tone */
+  --gray: rgba(153, 153, 153, 1); /* HEX 999999 */
+  --gray-bg: rgba(217, 217, 217, 1); /* HEX D9D9D9 */
+
+  /* Alert */
+  --green: rgba(0, 195, 0, 1); /* HEX 00C300 */
+  --red: rgba(255, 102, 51, 1); /* HEX FF6633 */
+
+  /* Primary */
+  --primary: rgba(24, 160, 251, 1); /* HEX 18A0FB */
+
+  /* Typography Token */
+
+  /* header */
+  --header-L-400-Size: 3rem; /* 48px */
+  --header-L-400-LineHeight: 4.5rem; /* 72px */
+  --header-L-400-LetterSpacing: -1.5%;
+  --header-L-400-Weight: 400; /* Regular */
+
+  /* title */
+  --title-S-800-Size: 1.5rem; /* 24px */
+  --title-S-800-LineHeight: 2.25rem; /* 36px */
+  --title-S-800-LetterSpacing: -1.5%;
+  --title-S-800-Weight: 800; /* Bold */
+
+  /* body */
+  --body-S-400-Size: 0.88rem; /* 14px */
+  --body-S-400-LineHeight: 1.38rem; /* 22px */
+  --body-S-400-LetterSpacing: -1.5%;
+  --body-S-400-Weight: 400; /* Regular */
+
+  --body-M-800-Size: 1rem; /* 16px */
+  --body-M-800-LineHeight: 1.5rem; /* 24px */
+  --body-M-800-LetterSpacing: -1.5%;
+  --body-M-800-Weight: 800; /* Bold */
+  --body-M-400-Size: 1rem; /* 16px */
+  --body-M-400-LineHeight: 1.5rem; /* 24px */
+  --body-M-400-LetterSpacing: -1.5%;
+  --body-M-400-Weight: 400; /* Regular */
+
+  --body-L-800-Size: 1.13rem; /* 18px */
+  --body-L-800-LineHeight: 1.88rem; /* 30px */
+  --body-L-800-LetterSpacing: -1.5%;
+  --body-L-800-Weight: 800; /* Bold */
+  --body-L-400-Size: 1.13rem; /* 18px */
+  --body-L-400-LineHeight: 1.88rem; /* 30px */
+  --body-L-400-LetterSpacing: -1.5%;
+  --body-L-400-Weight: 400; /* Regular */
+}
